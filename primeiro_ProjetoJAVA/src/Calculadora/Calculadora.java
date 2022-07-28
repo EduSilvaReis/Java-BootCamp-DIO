@@ -10,7 +10,7 @@ public class Calculadora {
 
         System.out.println("digite o primeiro numero: ");
         a = scan.nextInt();
-        System.out.println("digite o segundo numero: ");
+        System.out.println("digite o segundo numero: " );
         b = scan.nextInt();
 
         int soma = soma(a, b);
@@ -20,7 +20,7 @@ public class Calculadora {
 
         System.out.println("soma: " + soma);
         System.out.println("subtrai: " + subtrai);
-        System.out.println("multiplica: " + multilpica);
+        System.out.println("multiplicação: " + multilpica);
         System.out.println("divide: " + divide);
     }
 
